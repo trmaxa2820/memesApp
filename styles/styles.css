@@ -1,0 +1,50 @@
+body {
+     display: flex;
+     justify-content: center;
+     gap: 200px;
+
+     margin-top: 50px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mem__Img {
+    position: relative;
+    max-height: calc(100vh - 100px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image__text {
+    position: absolute;
+    width: 100%;
+    
+    font-size: 50px;
+    text-align: center;
+
+    color: #fff;
+}
+
+.image__text_upper {
+    top: 20px;
+}
+
+.image__text_down {
+    bottom: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memes app</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="setting column">
+        <h2>Настройки:</h2>
+        <label for="mem_select">Мем</label>
+        <select name="mem_select" id="mem_select">
+            <option value="">Выберите мем:</option>
+        </select>
+        <div class="text__wrapper">
+            <label for="text__upper">Текст сверху</label>
+            <input type="text" name="text__upper" id="text__upper-input">
+        </div>
+        <div class="text__wrapper">
+            <label for="text__down">Текст снизу</label>
+            <input type="text" name="text__down" id="text__down-input">
+        </div>
+        <div class="text__wrapper">
+            <label for="text__color">Цвет текста</label>
+            <input type="color" name="text__color" id="text__color-input" value="#ffffff">
+        </div>
+    </div>
+    <div class="prewie column">
+        <h2>Превью:</h2>
+        <div class="mem__Img" id="mem__Img">
+            <p class="image__text image__text_upper" id="image__text_upper"></p>
+            <p class="image__text image__text_down" id="image__text_down"></p>
+        </div>
+    </div>
+    <script src="./scripts/App.js" type="module"></script>
+</body>
+</html>
